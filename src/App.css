@@ -51,3 +51,8 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
     color: inherit;
 }
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}

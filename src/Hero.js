@@ -4,9 +4,14 @@ export default function Hero() {
     return (
         <section className='hero'>
             <strong>Hi, I'm Alex.</strong>
-            <h1>I'm a senior full-stack developer and<br />AWS certified solutions architect.</h1>
+            <h1>I'm a senior full-stack JavaScript developer and<br />AWS Certified Solutions Architect.</h1>
             <p>
-                I have been building secure, reliable, cost-effective cloud solutions in the fintech space for over 10 years.
+                For me, building software is all about the <i><b>how.</b></i>
+            </p>
+            <p>
+                I build secure, scalable, resilient and cost-effective
+                software by leveraging test-driven development, pair-programming and
+                continuous delivery.
             </p>
         </section>
     );

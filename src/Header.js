@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDev, faGithub, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDev, faGithub, faStackOverflow, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './Header.css';
 
 export default function Header() {
   return (
     <header>
-      <a href="/" title="Senior full-stack developer and solutions architect">Senior full-stack developer and solutions architect</a>
+      <a className="home-icon" href="/" title="Home">
+        a
+      </a>
       <div>
         <a href="https://github.com/alexkates" target="blank">
           <FontAwesomeIcon icon={faGithub} className="social-icon" />
@@ -18,6 +20,9 @@ export default function Header() {
         </a>
         <a href="https://dev.to/thealexkates" target="blank">
           <FontAwesomeIcon icon={faDev} className="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/alexanderkates/" target="blank">
+          <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
         </a>
       </div>
     </header>
