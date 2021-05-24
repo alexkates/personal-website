@@ -5,7 +5,7 @@ export default function SocialIcon({
     icon,
 }) {
     return (
-        <a className="text-xl hover:text-white" href={href} target="blank">
+        <a className="text-xl hover:text-gray-300" href={href} target="blank">
             <FontAwesomeIcon icon={icon} />
         </a>
     );
