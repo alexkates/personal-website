@@ -1,15 +1,13 @@
-import './Hero.css';
 
 export default function Hero() {
     return (
-        <section className='hero'>
-            <strong>Hi, I'm Alex.</strong>
-            <h1>I'm a senior full-stack JavaScript developer and<br />AWS Certified Solutions Architect.</h1>
-            <p>
-                For me, building software is all about the <i><b>how.</b></i>
+        <section className="mt-40">
+            <h1 className="text-6xl">Hi, I'm Alex.</h1>
+            <p className="text-4xl mt-8 opacity-70">
+                I'm a senior full-stack JavaScript developer and AWS Certified Solutions Architect.
             </p>
-            <p>
-                I build secure, scalable, resilient and cost-effective
+            <p className="text-2xl mt-8 opacity-70">
+                I build secure, scalable, and cost-effective
                 software by leveraging test-driven development, pair-programming and
                 continuous delivery.
             </p>

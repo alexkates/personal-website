@@ -1,30 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDev, faGithub, faStackOverflow, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import './Header.css';
+import SocialIcon from './SocialIcon';
 
 export default function Header() {
   return (
-    <header>
-      <a className="home-icon" href="/" title="Home">
-        a
-      </a>
-      <div>
-        <a href="https://github.com/alexkates" target="blank">
-          <FontAwesomeIcon icon={faGithub} className="social-icon" />
+    <header className="flex flex-row justify-between space-x-4 py-6">
+      <a href="/" className="hover:text-white text-2xl">
+        alexkates.dev
         </a>
-        <a href="https://stackoverflow.com/users/3149835/alex?tab=profile" target="blank">
-          <FontAwesomeIcon icon={faStackOverflow} className="social-icon" />
-        </a>
-        <a href="https://twitter.com/thealexkates" target="blank">
-          <FontAwesomeIcon icon={faTwitter} className="social-icon" />
-        </a>
-        <a href="https://dev.to/thealexkates" target="blank">
-          <FontAwesomeIcon icon={faDev} className="social-icon" />
-        </a>
-        <a href="https://www.linkedin.com/in/alexanderkates/" target="blank">
-          <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
-        </a>
-      </div>
+      <nav className="flex flex-row space-x-6 font-semibold w-auto ">
+        <SocialIcon icon={faGithub} href="https://github.com/alexkates" />
+        <SocialIcon icon={faStackOverflow} href="https://stackoverflow.com/users/3149835/alex?tab=profile" />
+        <SocialIcon icon={faTwitter} href="https://twitter.com/thealexkates" />
+        <SocialIcon icon={faDev} href="https://dev.to/thealexkates" />
+        <SocialIcon icon={faLinkedin} href="https://www.linkedin.com/in/alexanderkates" />
+      </nav>
     </header>
   );
 }
