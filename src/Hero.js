@@ -4,7 +4,7 @@ export default function Hero() {
         <section className="mt-40">
             <h1 className="text-6xl">Hi, I'm Alex.</h1>
             <p className="text-4xl mt-8 opacity-70">
-                Senior Software Engineer @ <a href="https://creditgenie.com">Credit Genie</a>.
+                Senior Software Engineer @<a className="underline hover:text-gray-300" href="https://creditgenie.com">Credit Genie</a>.
             </p>
             <p className="text-2xl mt-8 opacity-70">
                 AWS Certified Solutions Architect and Community Builder.
