@@ -1,7 +1,7 @@
 
 export default function Hero() {
     return (
-        <section className="mt-40">
+        <section className="mt-24">
             <h1 className="text-6xl">Hi, I'm Alex.</h1>
             <p className="text-4xl mt-8">
                 Senior Software Engineer @ <a className="hover:opacity-90 hover:underline" href="https://creditgenie.com">https://creditgenie.com</a>
