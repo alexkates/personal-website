@@ -3,7 +3,7 @@ import DevToTagList from './DevToTagList';
 export default function DevToArticleItem({ article }) {
     return (
         <div className="p-10">
-            <div className="max-w-sm rounded overflow-hidden shadow-2xl">
+            <div className="max-w-lg m-auto rounded overflow-hidden shadow-2xl">
                 <img className="w-full" src={article.cover_image} alt={article.title} />
                 <div className="px-6 py-4">
                     <a className="hover:text-gray-50" href={article.url} target="blank">
