@@ -12,7 +12,9 @@ export default function Hero() {
                         options={{
                             strings: [
                                 'Senior Software Engineer',
-                                'AWS Certified Soluctions Architect'
+                                'AWS Certified Soluctions Architect',
+                                'AWS Community Builder',
+                                'Tech for Campaigns Volunteer',
                             ],
                             autoStart: true,
                             loop: true,
