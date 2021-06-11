@@ -1,6 +1,7 @@
 import { faDev, faGithub, faStackOverflow, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import SocialIcon from './SocialIcon';
 import me from './me_bitmoji.png';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
@@ -15,6 +16,7 @@ export default function Header() {
         <SocialIcon icon={faTwitter} href="https://twitter.com/thealexkates" />
         <SocialIcon icon={faDev} href="https://dev.to/thealexkates" />
         <SocialIcon icon={faLinkedin} href="https://www.linkedin.com/in/alexanderkates" />
+        <SocialIcon icon={faPaperclip} href="https://docs.google.com/document/d/1zRtDKBeNCC8cgrKSRwdsT3CNisbz6oaVNX_QA4F9e2o/edit?usp=sharing" />
       </nav>
     </header>
   );
