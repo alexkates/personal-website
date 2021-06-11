@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="lg:flex lg:items-center justify-evenly mt-4">
       <div className="w-auto text-center lg:text-left">
         <h1 className="lg:flex text-6xl">Hi, I'm Alex.
-                    <span className="hidden lg:block ml-4 animate-wave">👋</span>
+          <span className="hidden lg:block ml-4 animate-wave">👋</span>
         </h1>
         <div className="text-xl md:text-2xl mt-8">
           <Typewriter
@@ -20,7 +20,8 @@ export default function Hero() {
               ],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 15,
+              deleteSpeed: 15,
             }}
           />
         </div>
