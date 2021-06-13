@@ -16,7 +16,7 @@ export default function DevToArticleList() {
     getArticles();
   }, [])
   return (
-    <section id="posts" className="grid items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-1">
+    <section id="posts" className="grid items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-1 my-8">
       {
         articles
           .map(article => <DevToArticleItem key={article.id} article={article} />)

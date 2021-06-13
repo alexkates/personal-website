@@ -8,8 +8,9 @@ export default function Header() {
         <img className="rounded-full w-10 h-10 mr-4" src={me} alt="" />
         <a href="/" className="hover:text-white text-2xl">alexkates.dev</a>
       </div>
-      <nav className="hidden md:flex items-center">
-        <AnchorLink href='#posts'>Posts</AnchorLink>
+      <nav className="hidden text-xl md:flex items-center">
+        <AnchorLink className="mx-2" href='#posts'>Posts</AnchorLink>
+        <AnchorLink className="mx-2" href='#tweets'>Tweets</AnchorLink>
       </nav>
     </header>
   );
