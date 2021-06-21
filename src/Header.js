@@ -9,7 +9,7 @@ export default function Header() {
         <a href="/" className="hover:text-white text-2xl">alexkates.dev</a>
       </div>
       <nav className="hidden text-xl md:flex items-center">
-        <AnchorLink className="mx-2" href='#posts'>Posts</AnchorLink>
+        <AnchorLink className="mx-2" href='#articles'>Articles</AnchorLink>
         <AnchorLink className="mx-2" href='#tweets'>Tweets</AnchorLink>
       </nav>
     </header>
